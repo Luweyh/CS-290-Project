@@ -1,0 +1,36 @@
+body {
+	background-color: lightblue
+}
+/*#pages {
+	border-style: solid
+}*/
+.page {
+	border-style: solid;
+	border-color: blue;
+	padding: 5px;
+	text-decoration: none;
+	color: black;
+}
+
+.box {
+	height: 180px;
+	width: 180px;
+	overflow: auto;
+}
+* {box-sizing:border-box}
+
+.pictures{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+img{
+	width:450px;
+	height:300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
